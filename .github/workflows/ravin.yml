@@ -1,0 +1,10 @@
+name: Greetings Demo
+
+on:
+  workflow_dispatch:
+
+jobs:
+    demo:
+     uses: asonitis365/resuable-workflows/.github/workflows/manual-trigger-job.yml@v0.0.2
+     with:
+      username: Dean
